@@ -33,7 +33,7 @@ While ($true) {
         }
         "4" {
             Write-Host "`nRunning Windows Component Cleanup (this takes a few minutes)..."
-            dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
+            dism.exe /online /Cleanup-Image /StartComponentCleanup
             Write-Host "Component cleanup complete!" -ForegroundColor Green
         }
         "5" {
